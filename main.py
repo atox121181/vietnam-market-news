@@ -33,7 +33,7 @@ def send_email(subject, body, attachment_path=None):
 
 # --- Hàm thu thập tin tức từ NewsAPI ---
 def collect_newsapi():
-    api_key = "YOUR_NEWSAPI_KEY"  # Thay bằng API key của bạn
+    api_key = "f15580bb18004764b6bf1f95f86991d8"  # Thay bằng API key của bạn
     url = f"https://newsapi.org/v2/everything?q=Vietnam+stock+market+OR+Vietnam+economy&language=en&sortBy=publishedAt&apiKey={api_key}"
     response = requests.get(url)
     
